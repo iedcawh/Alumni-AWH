@@ -1,0 +1,44 @@
+name: Build and Test
+on: 
+  pull_request:
+    branches:
+      - develop
+      - staging
+      - prod
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: ['20.x']
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+          run_install: false
+
+      - name: Install Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+        
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Check lint issues
+        run: pnpm lint:ci
+
+      - name: Build dependencies
+        run: pnpm build
+
+      #  We have to add the unit test cases. 
+      # - name: Run unit test cases
+      #   run: pnpm test
