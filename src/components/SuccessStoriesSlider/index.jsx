@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 
 const slides = [
   {
@@ -51,7 +51,7 @@ const slides = [
   },
 ];
 
-export default function SuccessStoriesSlider() {
+const SuccessStoriesSlider = () => {
   const scrollRef = useRef(null);
 
   const scroll = (direction) => {
@@ -157,4 +157,6 @@ export default function SuccessStoriesSlider() {
       </div>
     </>
   );
-}
+};
+
+export default SuccessStoriesSlider;

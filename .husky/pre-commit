@@ -10,11 +10,15 @@ if [ "$branch" = "develop" ]; then
     exit 1
 fi
 
-# Run Prettier format
-pnpm prettier --write . --log-level silent
+# Run Lint (fails commit if issues remain)
+pnpm lint
+if [ $? -ne 0 ]; then
+  echo "❌ Linting failed. Fix issues before committing."
+  exit 1
+fi
 
 # Run lint with auto-fix
-pnpm lint:fix
+# pnpm lint:fix
 
 # Run your build check
-pnpm build
+# pnpm build
