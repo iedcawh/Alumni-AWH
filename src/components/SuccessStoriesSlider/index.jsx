@@ -57,9 +57,9 @@ const SuccessStoriesSlider = () => {
   const scroll = (direction) => {
     const { current } = scrollRef;
     if (direction === 'left') {
-      current.scrollBy({ left: -300, behavior: 'smooth' });
+      current.scrollBy({ left: -250, behavior: 'smooth' });
     } else {
-      current.scrollBy({ left: 300, behavior: 'smooth' });
+      current.scrollBy({ left: 250, behavior: 'smooth' });
     }
   };
 
@@ -113,7 +113,7 @@ const SuccessStoriesSlider = () => {
           {/* Slider */}
           <div
             ref={scrollRef}
-            className="flex overflow-x-auto space-x-4 scrollbar-hide scroll-smooth"
+            className="flex overflow-x-auto space-x-4 scrollbar-hide scroll-smooth md:justify-center"
           >
             {slides.map((slide, index) => (
               <div
