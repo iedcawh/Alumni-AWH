@@ -1,15 +1,22 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions */
+
+import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import logo from '../../assets/logo.png';
-import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className="flex flex-wrap items-center px-8 py-2  rounded-xl bg-white">
       {/* Logo */}
-      <div className="flex-shrink-0">
+      <div className="flex-shrink-0 flex items-center">
         <img src={logo} alt="Logo" className="w-12 h-12" />
+        <h2 className="pl-3 text-xl font-semibold text-[#012F6D]">
+          AWH Alumni Assosciation
+        </h2>
       </div>
 
       {/* Hamburger Button - only below 1200px */}
@@ -27,13 +34,62 @@ const Navbar = () => {
      xl:mt-0 xl:flex xl:flex-row xl:items-center xl:gap-12 xl:ml-auto xl:w-auto xl:text-left
      text-gray-700 font-medium`}
       >
-        <li className="relative group cursor-pointer">Membership</li>
-        <li className="cursor-pointer">About us</li>
-        <li className="cursor-pointer">Gallery</li>
-        <li className="cursor-pointer">Give Back</li>
-        <li className="cursor-pointer">Events</li>
-        <li className="cursor-pointer">News & Updates</li>
-        <li className="cursor-pointer">Contact us</li>
+        <li
+          className="relative group cursor-pointer"
+          onClick={() => {
+            navigate('/membership');
+          }}
+        >
+          Membership
+        </li>
+        <li
+          className="cursor-pointer"
+          onClick={() => {
+            navigate('/');
+          }}
+        >
+          About us
+        </li>
+        <li
+          className="cursor-pointer"
+          onClick={() => {
+            navigate('/');
+          }}
+        >
+          Gallery
+        </li>
+        <li
+          className="cursor-pointer"
+          onClick={() => {
+            navigate('/');
+          }}
+        >
+          Give Back
+        </li>
+        <li
+          className="cursor-pointer"
+          onClick={() => {
+            navigate('/');
+          }}
+        >
+          Events
+        </li>
+        <li
+          className="cursor-pointer"
+          onClick={() => {
+            navigate('/');
+          }}
+        >
+          News & Updates
+        </li>
+        <li
+          className="cursor-pointer"
+          onClick={() => {
+            navigate('/');
+          }}
+        >
+          Contact us
+        </li>
         <li>
           <button className="bg-blue-900 hover:bg-blue-800 text-white font-bold py-1 px-5 rounded-lg shadow transition-colors">
             DONATE
