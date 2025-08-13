@@ -1,8 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
 import './App.css';
 import Home from './pages/Home';
-import Navbar from './components/Navbar';
+import Membership from './pages/Membership';
 import Contact from './pages/Contact';
 
 const App = () => {
@@ -10,7 +9,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/navbar" element={<Navbar />} />
+        <Route path="/membership" element={<Membership />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
     </Router>
