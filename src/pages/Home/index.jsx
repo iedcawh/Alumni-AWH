@@ -1,10 +1,10 @@
-import React from 'react';
 import homeBg from '../../assets/home-bg.png';
+import Events from '../../components/Events';
 import Navbar from '../../components/Navbar';
 
-function Home() {
+const Home = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <div
         className="relative h-screen w-full bg-cover bg-center"
@@ -24,8 +24,9 @@ function Home() {
           </h1>
         </div>
       </div>
-    </div>
+      <Events />
+    </>
   );
-}
+};
 
 export default Home;

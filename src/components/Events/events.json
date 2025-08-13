@@ -1,0 +1,37 @@
+[
+  {
+    "date": "2025-09-01",
+    "title": "Autumn Festival",
+    "description": "Celebrate the vibrant transition into fall with a day-long festival featuring live folk music, artisanal food stalls, handcrafted goods, and interactive family-friendly activities. Wander through colorful autumn-themed installations, participate in pumpkin carving contests, and enjoy warm seasonal treats like cider and roasted corn.",
+    "image": "https://alcorfund.com/wp-content/uploads/2020/09/Technical-Innovation-defination.png",
+    "authors": ["John", "Jack Sparrow", "Optimus Prime"]
+  },
+  {
+    "date": "2025-10-15",
+    "title": "Tech Conference 2025",
+    "description": "Join thought leaders, innovators, and tech enthusiasts from around the globe for a three-day deep dive into the latest advancements in artificial intelligence, blockchain, quantum computing, and sustainable technologies. This year’s conference includes expert panels, startup showcases, hands-on workshops, and exclusive networking opportunities with top-tier industry professionals.",
+    "image": "https://alcorfund.com/wp-content/uploads/2020/09/Technical-Innovation-defination.png",
+    "authors": ["John", "Jack Sparrow"]
+  },
+  {
+    "date": "2025-11-10",
+    "title": "Charity Run",
+    "description": "Participate in our annual Charity Run and help raise funds for underprivileged communities. The event includes a 5K and 10K route through the scenic downtown area, with hydration stations, medical support, and entertainment along the way. All proceeds go directly to local nonprofits providing food, shelter, and education for those in need.",
+    "image": "https://alcorfund.com/wp-content/uploads/2020/09/Technical-Innovation-defination.png",
+    "authors": ["John", "Jack Sparrow", "Optimus Prime"]
+  },
+  {
+    "date": "2025-12-05",
+    "title": "Winter Gala",
+    "description": "Experience an enchanting evening of elegance at the Winter Gala, hosted at the grand ballroom of the Civic Center. Enjoy a gourmet multi-course dinner, live orchestra performances, and a formal dance floor under shimmering chandeliers. Guests are encouraged to wear black-tie attire and support the evening’s fundraising efforts for local arts education programs.",
+    "image": "https://alcorfund.com/wp-content/uploads/2020/09/Technical-Innovation-defination.png",
+    "authors": ["Jack Sparrow", "Optimus Prime"]
+  },
+  {
+    "date": "2026-01-20",
+    "title": "New Year Art Exhibit",
+    "description": "Kick off the new year with a cultural celebration at the New Year Art Exhibit. This curated gallery features over 100 works from up-and-coming and established local artists, including paintings, sculptures, and digital installations. Interactive sessions with the artists and live art demonstrations offer a behind-the-scenes look at the creative process.",
+    "image": "https://alcorfund.com/wp-content/uploads/2020/09/Technical-Innovation-defination.png",
+    "authors": ["John", "Jack Sparrow", "Optimus Prime"]
+  }
+]
