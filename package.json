@@ -1,10 +1,10 @@
 {
-  "name": "react_boilerplate",
+  "name": "alumni-awh",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "pnpm lint:fix && vite",
     "build": "vite build",
     "lint": "eslint src --ext .js,.jsx",
     "lint:fix": "eslint src --ext .js,.jsx --fix",
