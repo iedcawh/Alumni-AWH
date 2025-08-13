@@ -2,6 +2,7 @@ import homeBg from '../../assets/home-bg.png';
 import Events from '../../components/Events';
 import Navbar from '../../components/Navbar';
 import SuccessStoriesSlider from '../../components/SuccessStoriesSlider';
+import WelcomeSection from '../../components/Welcome';
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
           </h1>
         </div>
       </div>
+      <WelcomeSection />
       <SuccessStoriesSlider />
       <Events />
     </>
