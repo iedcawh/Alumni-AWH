@@ -1,51 +1,35 @@
-import React from "react";
-import bg from "../../assets/bg.png"
-
-const events = [
-  { date: "Aug. 14 - Aug. 25", title: "Celtic Classics" },
-  { date: "Aug. 14", title: "WAA: Fond du Lac Chapter Night of Celebration", location: "Fond du Lac Beer Company, Fond du Lac, WI" },
-  { date: "Aug. 15", title: "Badger Meet-Up", location: "Wisconsin Alumni Association and Madison, WI" },
-  { date: "Aug. 18", title: "An Evening with WAA CEO Aissa Robertson", location: "Zoom Event" },
-  { date: "Aug. 20 - Aug. 30", title: "Kenya Safari: The Big Five" },
-  { date: "", title: "Past Events Gallery", special: true },
-  { date: "Aug. 21", title: "WAA: Chicago Chapter Welcome to the City Event", location: "WeWork Kinzie, Chicago, IL" },
-  { date: "Aug. 21", title: "WAA: Valley of the Sun Chapter Welcome to the City Social", location: "Culinary Dropout, Scottsdale, AZ" },
-  { date: "Aug. 22", title: "Badger Meet-Up", location: "Wisconsin Alumni Association and Madison, WI" }
-];
+import bg from '../../assets/bg.png';
+import events from './events.json';
 
 function Events() {
   return (
     <div
-      className="bg-cover bg-center py-12 px-4"
+      className="bg-cover bg-center py-12"
       style={{ backgroundImage: `url(${bg})` }}
     >
-      {/* Title */}
-      <h2 className="text-white text-2xl font-semibold text-center mb-8">
+      <h2 className="text-black text-2xl font-bold text-center mb-8">
         Events at a Glance
       </h2>
 
-      {/* Grid */}
-      <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {events.map((event, index) => (
+      <div className="w-full flex flex-wrap justify-center gap-8 max-md:flex-col max-md:items-center">
+        {events.slice(0, 3).map((event, index) => (
           <div
             key={index}
-            className={`p-4 rounded-md shadow-md ${
-              event.special
-                ? "bg-blue-800 text-white flex items-center justify-center"
-                : "bg-white bg-opacity-80"
-            }`}
+            className="w-[18%] bg-white bg-opacity-80 px-5 py-2 h-[20rem] cursor-pointer max-md:w-[80%]"
           >
-            {event.special ? (
-              <h3 className="text-lg font-bold">Past Events Gallery</h3>
-            ) : (
-              <>
-                <p className="text-xs text-gray-600">{event.date}</p>
-                <h3 className="text-sm font-semibold mt-1">{event.title}</h3>
-                {event.location && (
-                  <p className="text-xs text-gray-500 mt-1">{event.location}</p>
-                )}
-              </>
-            )}
+            <p className="text-2xl text-[#3C3C3C] font-bold">{event.date}</p>
+            <h3 className="text-[#012F6D] text-xl font-semibold mt-1">
+              {event.title}
+            </h3>
+            <hr className="w-[12%] my-3 h-2 bg-[#012F6D]" />
+            <p className="text-sm pt-2">
+              {event.authors.map((a, index) => (
+                <span key={index}>
+                  {a}
+                  {index < event.authors.length - 1 ? ', ' : ''}
+                </span>
+              ))}
+            </p>
           </div>
         ))}
       </div>

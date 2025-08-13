@@ -33,6 +33,8 @@ export default defineConfig([
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
        "prettier/prettier": "error",
+       "no-console":'error',
+       'no-unused-vars': 'error',
     },
   },
 ]);
