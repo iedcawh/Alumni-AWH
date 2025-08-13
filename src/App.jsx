@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
 import Home from './pages/Home';
-import Navbar from './components/Navbar';
+import Membership from './pages/Membership';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/navbar" element={<Navbar />} />
+        <Route path="/Membership" element={<Membership />} />
       </Routes>
     </Router>
   );
