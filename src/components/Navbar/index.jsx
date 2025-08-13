@@ -85,7 +85,7 @@ const Navbar = () => {
         <li
           className="cursor-pointer"
           onClick={() => {
-            navigate('/');
+            navigate('/contact');
           }}
         >
           Contact us
