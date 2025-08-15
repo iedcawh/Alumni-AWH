@@ -1,14 +1,11 @@
 import homeBg from '../../assets/home-bg.png';
 import Events from '../../components/Events';
-import Footer from '../../components/Footer';
-import Navbar from '../../components/Navbar';
 import SuccessStoriesSlider from '../../components/SuccessStoriesSlider';
 import WelcomeSection from '../../components/Welcome';
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       <div
         className="relative flex justify-center w-full h-screen bg-center bg-cover"
         style={{ backgroundImage: `url(${homeBg})` }}
@@ -35,7 +32,6 @@ const Home = () => {
       <WelcomeSection />
       <SuccessStoriesSlider />
       <Events />
-      <Footer />
     </>
   );
 };

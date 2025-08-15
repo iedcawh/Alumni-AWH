@@ -1,19 +1,16 @@
-import Navbar from '../../components/Navbar';
-
 function Membership() {
   return (
     <>
-      <Navbar />
       <div className="bg-[#0A2A5F] min-h-screen px-6 pt-24 pb-16 text-white font-sans scroll-smooth">
         {/* Title Section */}
-        <div className="text-center max-w-4xl mx-auto mb-12">
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-4 tracking-tight">
+        <div className="max-w-4xl mx-auto mb-12 text-center">
+          <h1 className="mb-4 text-5xl font-extrabold tracking-tight md:text-6xl">
             Membership
           </h1>
-          <p className="text-xl md:text-2xl mb-6 opacity-90">
+          <p className="mb-6 text-xl md:text-2xl opacity-90">
             Stay Connected. Stay Involved. Stay Inspired.
           </p>
-          <p className="text-white/80 leading-relaxed text-lg max-w-3xl mx-auto">
+          <p className="max-w-3xl mx-auto text-lg leading-relaxed text-white/80">
             Becoming a member of the Alumni Association of AWH Engineering
             College is your first step in continuing the journey you began on
             this campus. It’s more than a formality — it’s a lifelong connection
@@ -50,18 +47,18 @@ function Membership() {
           {/* Why Join */}
           <section
             id="why-join"
-            className="scroll-mt-28 max-w-4xl mx-auto bg-white/5 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition duration-300"
+            className="max-w-4xl p-8 mx-auto transition duration-300 shadow-lg scroll-mt-28 bg-white/5 rounded-2xl hover:shadow-2xl"
           >
-            <h2 className="text-3xl font-bold mb-6 border-b border-white/20 pb-2">
+            <h2 className="pb-2 mb-6 text-3xl font-bold border-b border-white/20">
               Why Join the Alumni Association?
             </h2>
-            <p className="text-white/80 leading-relaxed mb-6">
+            <p className="mb-6 leading-relaxed text-white/80">
               Becoming a member of the Alumni Association of AWH Engineering
               College is more than just staying connected — it’s about being
               part of a lifelong community that grows together, gives back, and
               celebrates the shared legacy of our institution.
             </p>
-            <ul className="list-disc list-inside space-y-4 text-white/80 text-lg">
+            <ul className="space-y-4 text-lg list-disc list-inside text-white/80">
               <li>
                 <span className="font-semibold text-white">
                   Stay Connected with Your Alma Mater:
@@ -113,24 +110,24 @@ function Membership() {
           {/* Eligibility */}
           <section
             id="eligibility"
-            className="scroll-mt-28 max-w-4xl mx-auto bg-white/5 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition duration-300"
+            className="max-w-4xl p-8 mx-auto transition duration-300 shadow-lg scroll-mt-28 bg-white/5 rounded-2xl hover:shadow-2xl"
           >
-            <h2 className="text-3xl font-bold mb-4 border-b border-white/20 pb-2">
+            <h2 className="pb-2 mb-4 text-3xl font-bold border-b border-white/20">
               Eligibility for Membership
             </h2>
-            <p className="text-white/80 text-lg mb-6">
+            <p className="mb-6 text-lg text-white/80">
               Anyone who has been a part of AWH Engineering College, Kozhikode
               and shares a bond with the institution is welcome to become a
               member of the Alumni Association.
             </p>
 
-            <div className="space-y-8 text-white/80 text-lg">
+            <div className="space-y-8 text-lg text-white/80">
               {/* Regular Membership */}
               <div>
-                <h3 className="text-2xl font-semibold mb-2">
+                <h3 className="mb-2 text-2xl font-semibold">
                   1. Regular Membership
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   <li>
                     Graduates of any undergraduate or postgraduate program
                     offered by AWH Engineering College.
@@ -149,10 +146,10 @@ function Membership() {
 
               {/* Associate Membership */}
               <div>
-                <h3 className="text-2xl font-semibold mb-2">
+                <h3 className="mb-2 text-2xl font-semibold">
                   2. Associate Membership
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   <li>
                     Former faculty members, staff, or administrators who have
                     served the college and wish to remain connected to the
@@ -167,10 +164,10 @@ function Membership() {
 
               {/* Honorary Membership */}
               <div>
-                <h3 className="text-2xl font-semibold mb-2">
+                <h3 className="mb-2 text-2xl font-semibold">
                   3. Honorary Membership
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   <li>
                     Eminent personalities, industry partners, or well-wishers of
                     the college who have made significant contributions to the
@@ -186,10 +183,10 @@ function Membership() {
 
               {/* General Conditions */}
               <div>
-                <h3 className="text-2xl font-semibold mb-2">
+                <h3 className="mb-2 text-2xl font-semibold">
                   General Conditions
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   <li>
                     Members must support the mission and vision of the Alumni
                     Association.
@@ -210,25 +207,25 @@ function Membership() {
           {/* Benefits */}
           <section
             id="benefits"
-            className="scroll-mt-28 max-w-4xl mx-auto bg-white/5 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition duration-300"
+            className="max-w-4xl p-8 mx-auto transition duration-300 shadow-lg scroll-mt-28 bg-white/5 rounded-2xl hover:shadow-2xl"
           >
-            <h2 className="text-3xl font-bold mb-4 border-b border-white/20 pb-2">
+            <h2 className="pb-2 mb-4 text-3xl font-bold border-b border-white/20">
               Membership Benefits
             </h2>
-            <p className="text-white/80 text-lg mb-6">
+            <p className="mb-6 text-lg text-white/80">
               Becoming a member of the AWH Engineering College Alumni
               Association is not just about staying connected — it’s about
               opening doors to new opportunities, personal growth, and
               meaningful contributions.
             </p>
 
-            <div className="space-y-8 text-white/80 text-lg">
+            <div className="space-y-8 text-lg text-white/80">
               {/* 1 */}
               <div>
-                <h3 className="text-2xl font-semibold mb-2">
+                <h3 className="mb-2 text-2xl font-semibold">
                   1. Lifelong Connection with Your Alma Mater
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   <li>
                     Stay updated with the latest developments, achievements, and
                     initiatives of AWH Engineering College.
@@ -242,10 +239,10 @@ function Membership() {
 
               {/* 2 */}
               <div>
-                <h3 className="text-2xl font-semibold mb-2">
+                <h3 className="mb-2 text-2xl font-semibold">
                   2. Strong Professional Network
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   <li>
                     Connect with fellow alumni across industries, geographies,
                     and career stages.
@@ -263,10 +260,10 @@ function Membership() {
 
               {/* 3 */}
               <div>
-                <h3 className="text-2xl font-semibold mb-2">
+                <h3 className="mb-2 text-2xl font-semibold">
                   3. Mentorship & Volunteering Opportunities
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   <li>
                     Mentor current students through talks, workshops, career
                     guidance, or project support.
@@ -284,10 +281,10 @@ function Membership() {
 
               {/* 4 */}
               <div>
-                <h3 className="text-2xl font-semibold mb-2">
+                <h3 className="mb-2 text-2xl font-semibold">
                   4. Career Support & Skill Building
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   <li>
                     Access webinars, industry talks, and expert sessions
                     organized by the association.
@@ -305,10 +302,10 @@ function Membership() {
 
               {/* 5 */}
               <div>
-                <h3 className="text-2xl font-semibold mb-2">
+                <h3 className="mb-2 text-2xl font-semibold">
                   5. Recognition & Visibility
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   <li>
                     Get featured in the Alumni Spotlight for notable
                     achievements in industry, academia, entrepreneurship, or
@@ -323,10 +320,10 @@ function Membership() {
 
               {/* 6 */}
               <div>
-                <h3 className="text-2xl font-semibold mb-2">
+                <h3 className="mb-2 text-2xl font-semibold">
                   6. Contribution to Institutional Development
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   <li>
                     Support scholarships, student aid, or campus development
                     initiatives.
@@ -343,10 +340,10 @@ function Membership() {
 
               {/* 7 */}
               <div>
-                <h3 className="text-2xl font-semibold mb-2">
+                <h3 className="mb-2 text-2xl font-semibold">
                   7. Regular Updates & Publications
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   <li>
                     Receive the official alumni newsletter featuring news,
                     achievements, opportunities, and upcoming events.
@@ -360,10 +357,10 @@ function Membership() {
 
               {/* 8 */}
               <div>
-                <h3 className="text-2xl font-semibold mb-2">
+                <h3 className="mb-2 text-2xl font-semibold">
                   8. Access to Campus Facilities (Subject to College Policy)
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   <li>
                     Use of the library or research resources during visits.
                   </li>
@@ -376,10 +373,10 @@ function Membership() {
 
               {/* 9 */}
               <div>
-                <h3 className="text-2xl font-semibold mb-2">
+                <h3 className="mb-2 text-2xl font-semibold">
                   9. Reunion & Community Events
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   <li>
                     Enjoy exclusive invites to national and regional alumni
                     meets, reunions, and cultural events.
@@ -393,10 +390,10 @@ function Membership() {
 
               {/* 10 */}
               <div>
-                <h3 className="text-2xl font-semibold mb-2">
+                <h3 className="mb-2 text-2xl font-semibold">
                   10. Voting Rights & Participation
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   <li>
                     Eligible to vote in alumni association elections and
                     contribute to decision-making.
@@ -419,12 +416,12 @@ function Membership() {
           {/* How to Join */}
           <section
             id="how-to-join"
-            className="scroll-mt-28 max-w-4xl mx-auto bg-white/5 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition duration-300 text-center"
+            className="max-w-4xl p-8 mx-auto text-center transition duration-300 shadow-lg scroll-mt-28 bg-white/5 rounded-2xl hover:shadow-2xl"
           >
-            <h2 className="text-3xl font-bold mb-6 border-b border-white/20 pb-2">
+            <h2 className="pb-2 mb-6 text-3xl font-bold border-b border-white/20">
               How to Join / Online Registration
             </h2>
-            <p className="text-white/80 mb-6 text-lg">
+            <p className="mb-6 text-lg text-white/80">
               You can register online by filling out the membership form below.
             </p>
             <button className="bg-gradient-to-r from-[#3FA9F5] to-[#007ACC] text-white px-8 py-4 rounded-xl text-lg font-semibold shadow-lg hover:scale-105 transition duration-300">
@@ -435,13 +432,13 @@ function Membership() {
           {/* Renewal */}
           <section
             id="renewal"
-            className="scroll-mt-28 max-w-4xl mx-auto bg-white/5 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition duration-300"
+            className="max-w-4xl p-8 mx-auto transition duration-300 shadow-lg scroll-mt-28 bg-white/5 rounded-2xl hover:shadow-2xl"
           >
-            <h2 className="text-3xl font-bold mb-4 border-b border-white/20 pb-2">
+            <h2 className="pb-2 mb-4 text-3xl font-bold border-b border-white/20">
               Membership Renewal
             </h2>
 
-            <p className="text-white/80 text-lg mb-6">
+            <p className="mb-6 text-lg text-white/80">
               Stay connected, stay engaged, and continue to be a proud part of
               the AWH Engineering College alumni community. Renewing your
               membership ensures uninterrupted access to all the benefits and
@@ -450,8 +447,8 @@ function Membership() {
               details.
             </p>
 
-            <h3 className="text-2xl font-semibold mb-3">When to Renew</h3>
-            <ul className="list-disc list-inside text-white/80 text-lg space-y-2 mb-6">
+            <h3 className="mb-3 text-2xl font-semibold">When to Renew</h3>
+            <ul className="mb-6 space-y-2 text-lg list-disc list-inside text-white/80">
               <li>
                 Membership is valid for a fixed term: 1 year, 3 years, or 5
                 years
@@ -466,8 +463,8 @@ function Membership() {
               </li>
             </ul>
 
-            <h3 className="text-2xl font-semibold mb-3">How to Renew</h3>
-            <ol className="list-decimal list-inside text-white/80 text-lg space-y-2 mb-6">
+            <h3 className="mb-3 text-2xl font-semibold">How to Renew</h3>
+            <ol className="mb-6 space-y-2 text-lg list-decimal list-inside text-white/80">
               <li>
                 Click on the “Renew Now” button on this page or in the reminder
                 email.
@@ -486,13 +483,13 @@ function Membership() {
               </li>
             </ol>
 
-            <p className="text-white/80 text-lg mb-6">
+            <p className="mb-6 text-lg text-white/80">
               Please ensure that your details are accurate and up-to-date — this
               helps us stay connected and serve you better.
             </p>
 
-            <h3 className="text-2xl font-semibold mb-3">Why Renewal Matters</h3>
-            <ul className="list-disc list-inside text-white/80 text-lg space-y-2 mb-6">
+            <h3 className="mb-3 text-2xl font-semibold">Why Renewal Matters</h3>
+            <ul className="mb-6 space-y-2 text-lg list-disc list-inside text-white/80">
               <li>Continued access to alumni events, reunions, and updates</li>
               <li>
                 Participation in alumni mentorship, volunteering, and networking
@@ -513,12 +510,12 @@ function Membership() {
               </li>
             </ul>
 
-            <h3 className="text-2xl font-semibold mb-3">Need Help?</h3>
-            <p className="text-white/80 text-lg mb-4">
+            <h3 className="mb-3 text-2xl font-semibold">Need Help?</h3>
+            <p className="mb-4 text-lg text-white/80">
               If you need assistance with the renewal process, feel free to
               reach out:
             </p>
-            <p className="text-white/80 text-lg">
+            <p className="text-lg text-white/80">
               <strong>Email:</strong> alumni@awhce.org
               <br />
               <strong>Phone:</strong> +91-XXXX-XXXXXX
@@ -527,10 +524,10 @@ function Membership() {
               Friday)
             </p>
 
-            <p className="text-white font-semibold text-xl mt-6">
+            <p className="mt-6 text-xl font-semibold text-white">
               ✅ Keep Your Membership Active – Keep Your Profile Current
             </p>
-            <p className="text-white/80 text-lg">
+            <p className="text-lg text-white/80">
               Your continued membership strengthens our alumni network and
               empowers both our alumni and students. Renew today and remain an
               integral part of the AWH Engineering College family.
@@ -540,19 +537,19 @@ function Membership() {
           {/* FAQs */}
           <section
             id="faqs"
-            className="scroll-mt-28 max-w-4xl mx-auto bg-white/5 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition duration-300"
+            className="max-w-4xl p-8 mx-auto transition duration-300 shadow-lg scroll-mt-28 bg-white/5 rounded-2xl hover:shadow-2xl"
           >
-            <h2 className="text-3xl font-bold mb-4 border-b border-white/20 pb-2">
+            <h2 className="pb-2 mb-4 text-3xl font-bold border-b border-white/20">
               Frequently Asked Questions
             </h2>
-            <p className="text-white/80 text-lg mb-6">
+            <p className="mb-6 text-lg text-white/80">
               Have questions? Check out our FAQs or reach out to the alumni
               office for support.
             </p>
 
-            <div className="space-y-6 text-white/80 text-lg">
+            <div className="space-y-6 text-lg text-white/80">
               <div>
-                <h3 className="font-semibold text-xl mb-2">
+                <h3 className="mb-2 text-xl font-semibold">
                   1. Who can become a member of the Alumni Association?
                 </h3>
                 <p>
@@ -565,7 +562,7 @@ function Membership() {
               </div>
 
               <div>
-                <h3 className="font-semibold text-xl mb-2">
+                <h3 className="mb-2 text-xl font-semibold">
                   2. How do I apply for membership?
                 </h3>
                 <p>
@@ -577,7 +574,7 @@ function Membership() {
               </div>
 
               <div>
-                <h3 className="font-semibold text-xl mb-2">
+                <h3 className="mb-2 text-xl font-semibold">
                   3. Is the membership free?
                 </h3>
                 <p>
@@ -589,7 +586,7 @@ function Membership() {
               </div>
 
               <div>
-                <h3 className="font-semibold text-xl mb-2">
+                <h3 className="mb-2 text-xl font-semibold">
                   4. How do I renew my membership?
                 </h3>
                 <p>
@@ -601,7 +598,7 @@ function Membership() {
               </div>
 
               <div>
-                <h3 className="font-semibold text-xl mb-2">
+                <h3 className="mb-2 text-xl font-semibold">
                   5. Why do I need to renew my membership?
                 </h3>
                 <p>
@@ -614,7 +611,7 @@ function Membership() {
               </div>
 
               <div>
-                <h3 className="font-semibold text-xl mb-2">
+                <h3 className="mb-2 text-xl font-semibold">
                   6. What if I forget my Membership ID or need to update my
                   details?
                 </h3>
@@ -627,7 +624,7 @@ function Membership() {
               </div>
 
               <div>
-                <h3 className="font-semibold text-xl mb-2">
+                <h3 className="mb-2 text-xl font-semibold">
                   7. Will I receive any confirmation after applying or renewing?
                 </h3>
                 <p>
@@ -637,7 +634,7 @@ function Membership() {
               </div>
 
               <div>
-                <h3 className="font-semibold text-xl mb-2">
+                <h3 className="mb-2 text-xl font-semibold">
                   8. Can I participate in events without being a member?
                 </h3>
                 <p>
@@ -648,10 +645,10 @@ function Membership() {
               </div>
 
               <div>
-                <h3 className="font-semibold text-xl mb-2">
+                <h3 className="mb-2 text-xl font-semibold">
                   9. How is my membership fee used?
                 </h3>
-                <ul className="list-disc list-inside space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   <li>Organizing alumni reunions and meets</li>
                   <li>Student scholarships and mentoring programs</li>
                   <li>Website maintenance and alumni communications</li>
@@ -660,7 +657,7 @@ function Membership() {
               </div>
 
               <div>
-                <h3 className="font-semibold text-xl mb-2">
+                <h3 className="mb-2 text-xl font-semibold">
                   10. Who do I contact for help regarding membership?
                 </h3>
                 <p>

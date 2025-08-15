@@ -46,7 +46,9 @@ export default function Gallery() {
     <section className="py-12 bg-white">
       <div className="max-w-6xl px-4 mx-auto text-center">
         {/* Page Title */}
-        <h2 className="mb-4 text-3xl font-bold text-[#081b4d]">Gallery</h2>
+        <h2 className="mb-4 text-4xl font-bold text-[#081b4d] max-md:text-2xl">
+          Gallery
+        </h2>
         <p className="mb-8 text-gray-600">
           Memories captured from our events and gatherings.
         </p>
