@@ -6,6 +6,8 @@ import Contact from './pages/Contact';
 import GiveBack from './pages/GiveBack';
 import AboutUs from './pages/AboutUs';
 import Gallery from './pages/Gallery';
+import ComingSoon from './pages/ComingSoon';
+import NotFound from './pages/NotFound';
 
 const App = () => {
   return (
@@ -17,6 +19,9 @@ const App = () => {
         <Route path="/giveback" element={<GiveBack />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/events" element={<ComingSoon />} />
+        <Route path="/news" element={<ComingSoon />} />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
     </Router>
   );

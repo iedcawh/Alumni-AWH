@@ -56,7 +56,7 @@ const Navbar = () => {
             navigate('/aboutus');
           }}
         >
-          About us
+          About Us
         </li>
         <li
           className="cursor-pointer"
@@ -69,7 +69,7 @@ const Navbar = () => {
         <li
           className="cursor-pointer"
           onClick={() => {
-            navigate('/');
+            navigate('/giveback');
           }}
         >
           Give Back
@@ -77,7 +77,7 @@ const Navbar = () => {
         <li
           className="cursor-pointer"
           onClick={() => {
-            navigate('/');
+            navigate('/events');
           }}
         >
           Events
@@ -85,7 +85,7 @@ const Navbar = () => {
         <li
           className="cursor-pointer"
           onClick={() => {
-            navigate('/');
+            navigate('/news');
           }}
         >
           News & Updates
