@@ -61,7 +61,7 @@ const Navbar = () => {
         <li
           className="cursor-pointer"
           onClick={() => {
-            navigate('/');
+            navigate('/gallery');
           }}
         >
           Gallery
