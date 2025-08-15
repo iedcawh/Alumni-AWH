@@ -57,11 +57,11 @@ function AboutUs() {
         className="relative flex justify-center w-full h-screen bg-center bg-cover"
         style={{ backgroundImage: `url(${aboutBg})` }}
       >
-        <div className="relative z-10 flex flex-col items-center justify-center w-9/12 h-full px-4 space-y-4 text-center text-white">
-          <h1 className="text-6xl font-bold leading-tight uppercase max-md:text-2xl">
+        <div className="relative z-10 flex flex-col items-center justify-center w-9/12 h-full px-4 space-y-4 text-center text-white max-md:w-11/12">
+          <h1 className="text-6xl font-bold leading-tight uppercase max-md:text-4xl">
             About Us
           </h1>
-          <h1 className="text-4xl font-bold leading-tight max-md:text-2xl">
+          <h1 className="text-4xl font-semibold leading-tight max-md:text-xl">
             Connecting the Past, Empowering the Future
           </h1>
           <p className="max-w-2xl text-sm leadig-relaxed md:text-lg">
@@ -279,7 +279,7 @@ function AboutUs() {
         <h1 className="text-2xl font-bold leading-tight max-md:text-xl">
           Reconnect. Reignite. Relive.
         </h1>
-        <p className="text-xl font-semibold leading-tight max-md:text-lg">
+        <p className="text-xl font-medium leading-tight max-md:text-lg">
           Whether you graduated last year or decades ago, you’ll always be part
           of the AWH family.
         </p>
