@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Membership from './pages/Membership';
 import Contact from './pages/Contact';
 import GiveBack from './pages/GiveBack';
+import AboutUs from './pages/AboutUs';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/membership" element={<Membership />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/giveback" element={<GiveBack />} />
+        <Route path="/aboutus" element={<AboutUs />} />
       </Routes>
     </Router>
   );

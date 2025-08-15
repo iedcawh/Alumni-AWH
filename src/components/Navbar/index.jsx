@@ -53,7 +53,7 @@ const Navbar = () => {
         <li
           className="cursor-pointer"
           onClick={() => {
-            navigate('/');
+            navigate('/aboutus');
           }}
         >
           About us
