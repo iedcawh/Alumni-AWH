@@ -41,37 +41,37 @@ export default function Footer() {
           <h3 className="mb-2 font-bold">AWH ALUMNI ASSOCIATION®</h3>
           <ul className="space-y-1">
             <li>
-              <a href="https://example.com" className="hover:underline">
+              <a href="/" className="hover:underline">
                 Home
               </a>
             </li>
             <li>
-              <a href="https://example.com" className="hover:underline">
+              <a href="/membership" className="hover:underline">
                 Membership
               </a>
             </li>
             <li>
-              <a href="https://example.com" className="hover:underline">
+              <a href="/aboutus" className="hover:underline">
                 About Us
               </a>
             </li>
             <li>
-              <a href="https://example.com" className="hover:underline">
+              <a href="/gallery" className="hover:underline">
                 Gallery
               </a>
             </li>
             <li>
-              <a href="https://example.com" className="hover:underline">
+              <a href="/giveback" className="hover:underline">
                 Give Back
               </a>
             </li>
             <li>
-              <a href="https://example.com" className="hover:underline">
+              <a href="/events" className="hover:underline">
                 Events
               </a>
             </li>
             <li>
-              <a href="https://example.com" className="hover:underline">
+              <a href="/news" className="hover:underline">
                 News & Updates
               </a>
             </li>
@@ -103,8 +103,8 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="flex flex-col items-center justify-between px-6 pt-4 pb-6 mx-auto mt-6 border-t border-white/30 md:flex-row max-w-7xl">
         <p className="text-sm max-md:text-xs">
-          © 2025 AWH Engineering College Alumni Association. All rights
-          reserved.
+          © {new Date().getFullYear()} AWH Engineering College Alumni
+          Association. All rights reserved.
         </p>
         <div className="flex mt-4 space-x-4 md:mt-0">
           <a href="https://example.com">
