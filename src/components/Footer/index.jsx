@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#081b4d] text-white relative">
       {/* Main Footer Content */}
-      <div className="relative z-10 grid grid-cols-1 gap-8 px-6 py-12 mx-auto max-w-7xl md:grid-cols-3">
+      <div className="relative z-10 grid grid-cols-1 gap-8 px-6 py-12 mx-auto max-w-7xl md:grid-cols-3 max-md:text-xs">
         {/* Column 1 */}
         <div>
           <div className="flex gap-2">
@@ -102,7 +102,7 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="flex flex-col items-center justify-between px-6 pt-4 pb-6 mx-auto mt-6 border-t border-white/30 md:flex-row max-w-7xl">
-        <p className="text-sm">
+        <p className="text-sm max-md:text-xs">
           © 2025 AWH Engineering College Alumni Association. All rights
           reserved.
         </p>
