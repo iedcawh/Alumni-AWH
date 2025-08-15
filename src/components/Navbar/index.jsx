@@ -31,9 +31,17 @@ const Navbar = () => {
         className={`${
           menuOpen ? 'flex' : 'hidden'
         } flex-col w-full mt-4 gap-4 items-center text-center 
-     xl:mt-0 xl:flex xl:flex-row xl:items-center xl:gap-12 xl:ml-auto xl:w-auto xl:text-left
+     xl:mt-0 xl:flex xl:flex-row xl:items-center xl:gap-5 xl:ml-auto xl:w-auto xl:text-left
      text-gray-700 font-medium`}
       >
+        <li
+          className="relative cursor-pointer group"
+          onClick={() => {
+            navigate('/');
+          }}
+        >
+          Home
+        </li>
         <li
           className="relative cursor-pointer group"
           onClick={() => {

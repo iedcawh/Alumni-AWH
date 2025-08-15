@@ -96,7 +96,7 @@ const SuccessStoriesSlider = () => {
       `}</style>
       <div className="p-4 bg-[#0A2A5F]">
         <div className="w-full px-6 py-10">
-          <h2 className="mb-8 text-3xl italic font-bold text-center text-white">
+          <h2 className="mb-8 text-3xl font-bold text-center text-white">
             Success Stories
           </h2>
 
@@ -118,7 +118,7 @@ const SuccessStoriesSlider = () => {
               {slides.map((slide, index) => (
                 <div
                   key={index}
-                  className="flex-shrink-0 p-3 bg-white rounded-lg shadow w-60"
+                  className="flex-shrink-0 p-3 bg-white rounded-lg shadow w-[350px]"
                 >
                   <img
                     src={slide.image}
