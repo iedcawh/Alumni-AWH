@@ -37,6 +37,14 @@ const Navbar = () => {
         <li
           className="relative cursor-pointer group"
           onClick={() => {
+            navigate('/');
+          }}
+        >
+          Home
+        </li>
+        <li
+          className="relative cursor-pointer group"
+          onClick={() => {
             navigate('/membership');
           }}
         >
