@@ -43,7 +43,7 @@ export default function Gallery() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="py-12 bg-white">
       <div className="max-w-6xl px-4 mx-auto text-center">
         {/* Page Title */}
         <h2 className="mb-4 text-3xl font-bold text-[#081b4d]">Gallery</h2>
