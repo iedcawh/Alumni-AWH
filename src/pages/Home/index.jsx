@@ -19,15 +19,15 @@ const Home = () => {
             </span>
             AWH Engineering College <br /> Alumni Association
           </h1>
-          <p className="max-w-2xl text-lg leading-relaxed">
+          <p className="max-w-2xl text-sm leadig-relaxed md:text-lg">
             At AWH Engineering College, graduation isn’t the end — it’s the
             beginning of a lifelong connection. The{' '}
             <strong>Alumni Association</strong> is where memories meet
             opportunities, friendships are rekindled, and futures are shaped
             together.
           </p>
-          <button className="px-6 py-3 font-semibold text-white transition-all duration-200 border-2 border-white rounded-md hover:bg-white hover:text-primary">
-            Join the Network
+          <button className="px-6 py-3 font-semibold text-white transition-all duration-200 border-2 border-white rounded-md hover:bg-white hover:text-[#081b4d]">
+            Join the Association
           </button>
         </div>
       </div>

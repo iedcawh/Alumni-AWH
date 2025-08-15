@@ -30,7 +30,7 @@ const WelcomeSection = () => {
             <h1 className="mb-6 text-4xl font-bold tracking-wide text-center md:text-5xl md:text-left">
               WELCOME
             </h1>
-            <p className="mb-4 text-lg leading-relaxed md:text-xl">
+            <p className="mb-4 text-sm leading-relaxed md:text-xl">
               Welcome to the official website of the Alumni Association of AWH
               Engineering College, Kozhikode. Over the years, our institution
               has seen thousands of bright minds transform into skilled
@@ -38,16 +38,16 @@ const WelcomeSection = () => {
               of a vibrant, diverse network across the world, and your
               achievements stand as a proud testament to our legacy.
             </p>
-            <p className="mb-4 text-lg leading-relaxed md:text-xl">
+            <p className="mb-4 text-sm leading-relaxed md:text-xl">
               This platform is a digital bridge to your alma mater — a place to
               reminisce, reconnect, and contribute. Our goals are to:
             </p>
-            <ul className="mb-4 text-lg list-disc list-inside md:text-xl">
+            <ul className="mb-4 text-sm list-disc list-inside md:text-xl">
               <li>Foster engagement between alumni, students, and faculty</li>
               <li>Facilitate mentorship, career guidance, and collaboration</li>
               <li>Celebrate alumni achievements and promote mutual growth</li>
             </ul>
-            <p className="mb-4 text-lg leading-relaxed md:text-xl">
+            <p className="mb-4 text-sm leading-relaxed md:text-xl">
               As Principal and President of the Alumni Association, I invite you
               to participate in our programs, share your journey, support
               students, and help strengthen our community. Your time,
