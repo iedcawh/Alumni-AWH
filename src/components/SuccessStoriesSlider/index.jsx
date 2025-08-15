@@ -94,65 +94,66 @@ const SuccessStoriesSlider = () => {
           scrollbar-width: none;  /* Firefox */
         }
       `}</style>
+      <div className="p-4 bg-[#0A2A5F]">
+        <div className="w-full px-6 py-10">
+          <h2 className="mb-8 text-3xl italic font-bold text-center text-white">
+            Success Stories
+          </h2>
 
-      <div className="w-full px-6 py-10 bg-[#0A2A5F]">
-        <h2 className="text-3xl font-bold italic text-white text-center mb-8">
-          Success Stories
-        </h2>
+          <div className="relative px-8">
+            {/* Left Arrow */}
+            <button
+              onClick={() => scroll('left')}
+              style={{ backgroundColor: '#012F6D' }}
+              className="absolute left-0 z-10 p-2 text-white transform -translate-x-full -translate-y-1/2 rounded top-1/2"
+            >
+              ❮
+            </button>
 
-        <div className="relative px-8">
-          {/* Left Arrow */}
-          <button
-            onClick={() => scroll('left')}
-            style={{ backgroundColor: '#012F6D' }}
-            className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-full text-white p-2 rounded z-10"
-          >
-            ❮
-          </button>
-
-          {/* Slider */}
-          <div
-            ref={scrollRef}
-            className="flex overflow-x-auto space-x-4 scrollbar-hide scroll-smooth md:justify-center"
-          >
-            {slides.map((slide, index) => (
-              <div
-                key={index}
-                className="flex-shrink-0 w-60 bg-white rounded-lg shadow p-3"
-              >
-                <img
-                  src={slide.image}
-                  alt={slide.title}
-                  className="w-full h-40 object-cover rounded"
-                />
-                <div className="mt-2 text-center">
-                  <p className="font-medium text-gray-800 italic">
-                    {slide.title}
-                  </p>
-                  <p className="text-sm text-gray-600 mt-1">
-                    {slide.description}
-                  </p>
-                  <a href={slide.link}>
-                    <button
-                      style={{ backgroundColor: '#012F6D' }}
-                      className="mt-3 px-4 py-1 text-sm text-white rounded hover:brightness-90 transition"
-                    >
-                      Read More
-                    </button>
-                  </a>
+            {/* Slider */}
+            <div
+              ref={scrollRef}
+              className="flex space-x-4 overflow-x-auto scrollbar-hide scroll-smooth md:justify-center"
+            >
+              {slides.map((slide, index) => (
+                <div
+                  key={index}
+                  className="flex-shrink-0 p-3 bg-white rounded-lg shadow w-60"
+                >
+                  <img
+                    src={slide.image}
+                    alt={slide.title}
+                    className="object-cover w-full h-40 rounded"
+                  />
+                  <div className="mt-2 text-center">
+                    <p className="italic font-medium text-gray-800">
+                      {slide.title}
+                    </p>
+                    <p className="mt-1 text-sm text-gray-600">
+                      {slide.description}
+                    </p>
+                    <a href={slide.link}>
+                      <button
+                        style={{ backgroundColor: '#012F6D' }}
+                        className="px-4 py-1 mt-3 text-sm text-white transition rounded hover:brightness-90"
+                      >
+                        Read More
+                      </button>
+                    </a>
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
 
-          {/* Right Arrow */}
-          <button
-            onClick={() => scroll('right')}
-            style={{ backgroundColor: '#012F6D' }}
-            className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-full text-white p-2 rounded z-10"
-          >
-            ❯
-          </button>
+            {/* Right Arrow */}
+            <button
+              onClick={() => scroll('right')}
+              style={{ backgroundColor: '#012F6D' }}
+              className="absolute right-0 z-10 p-2 text-white transform translate-x-full -translate-y-1/2 rounded top-1/2"
+            >
+              ❯
+            </button>
+          </div>
         </div>
       </div>
     </>
