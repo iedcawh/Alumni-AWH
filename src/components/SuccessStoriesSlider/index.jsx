@@ -34,9 +34,9 @@ const SuccessStoriesSlider = () => {
   const scroll = (direction) => {
     const { current } = scrollRef;
     if (direction === 'left') {
-      current.scrollBy({ left: -250, behavior: 'smooth' });
+      current.scrollBy({ left: -350, behavior: 'smooth' });
     } else {
-      current.scrollBy({ left: 250, behavior: 'smooth' });
+      current.scrollBy({ left: 350, behavior: 'smooth' });
     }
   };
 
