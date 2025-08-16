@@ -1,124 +1,165 @@
 import React from 'react';
 
+import mentorBg from '../../assets/mentor.png';
+import guidanceBg from '../../assets/Career_Guidance_Webinars.png';
+import supportBg from '../../assets/Support.png';
+import developmentBg from '../../assets/Development.png';
+import csrBg from '../../assets/CSR.png';
+import opportunitiesBg from '../../assets/Opportunities.png';
+
 export default function GiveBack() {
   return (
-    <div className="p-8 bg-gray-100 min-h-screen">
+    <div className="min-h-screen p-8 text-center bg-gray-100">
       {/* Heading */}
-      <h1 className="text-4xl font-bold text-center mb-10 text-blue-800">
+      <h2 className="mb-4 text-6xl font-bold text-[#081b4d] max-md:text-4xl">
         Give Back
-      </h1>
+      </h2>
+      <p className="mb-8 text-gray-600">
+        Your support helps strengthen our institution, inspire students, and
+        create lasting change.
+      </p>
 
       {/* Cards container */}
-      <div className="grid min-md:grid-cols-3 gap-8">
+      <div className="grid gap-8 min-md:grid-cols-3">
         {/* Card 1 */}
-        <div className="p-6 rounded-xl shadow-lg bg-white hover:scale-105 transform transition duration-300">
+        <div className="p-6 transition duration-300 transform bg-white shadow-lg rounded-xl hover:scale-105">
           <img
-            src="src\assets\mentor.png"
+            src={mentorBg}
             alt="Mentor Students"
-            className="w-full h-40 object-cover rounded-lg mb-4"
+            className="object-cover w-full h-40 mb-4 rounded-lg"
           />
-          <h2 className="text-xl font-semibold mb-2 text-blue-700">
+          <h2 className="mb-2 text-xl font-semibold text-[#0A2A5F]">
             Mentor Students (Register as Mentor)
           </h2>
           <p className="mb-4 text-gray-700">
             Guide and inspire students to achieve their academic and career
             goals.
           </p>
-          <button className="bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition">
-            Read More
-          </button>
+          <a
+            href="https://airtable.com/appLnD2BQdaA7nQjt/pagAceLpsqyf2DMJY/form"
+            className="inline-block px-4 py-2 font-semibold text-white transition rounded-lg bg-[#0A2A5F] hover:bg-blue-700"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join Now
+          </a>
         </div>
 
         {/* Card 2 */}
-        <div className="p-6 rounded-xl shadow-lg bg-white hover:scale-105 transform transition duration-300">
+        <div className="p-6 transition duration-300 transform bg-white shadow-lg rounded-xl hover:scale-105">
           <img
-            src="src\assets\Career_Guidance_Webinars.png"
+            src={guidanceBg}
             alt="Career Guidance"
-            className="w-full h-40 object-cover rounded-lg mb-4"
+            className="object-cover w-full h-40 mb-4 rounded-lg"
           />
-          <h2 className="text-xl font-semibold mb-2 text-green-700">
+          <h2 className="mb-2 text-xl font-semibold text-[#0A2A5F]">
             Career Guidance / Webinars
           </h2>
           <p className="mb-4 text-gray-700">
             Share your expertise through webinars and career guidance sessions.
           </p>
-          <button className="bg-green-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-700 transition">
-            Read More
-          </button>
+          <a
+            href="https://airtable.com/appLnD2BQdaA7nQjt/pagEx1L7t1ym4Mnst/form"
+            className="inline-block px-4 py-2 font-semibold text-white transition rounded-lg bg-[#0A2A5F] hover:bg-blue-700"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join Now
+          </a>
         </div>
 
         {/* Card 3 */}
-        <div className="p-6 rounded-xl shadow-lg bg-white hover:scale-105 transform transition duration-300">
+        <div className="p-6 transition duration-300 transform bg-white shadow-lg rounded-xl hover:scale-105">
           <img
-            src="src\assets\Support a Scholarship.png"
+            src={supportBg}
             alt="Scholarship Support"
-            className="w-full h-40 object-cover rounded-lg mb-4"
+            className="object-cover w-full h-40 mb-4 rounded-lg"
           />
-          <h2 className="text-xl font-semibold mb-2 text-orange-700">
+          <h2 className="mb-2 text-xl font-semibold text-[#0A2A5F]">
             Support a Scholarship
           </h2>
           <p className="mb-4 text-gray-700">
             Help deserving students pursue their education through scholarships.
           </p>
-          <button className="bg-orange-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-orange-700 transition">
-            Read More
-          </button>
+          <a
+            href="http://example.com/"
+            className="inline-block px-4 py-2 font-semibold text-white transition rounded-lg bg-[#0A2A5F] hover:bg-blue-700"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join Now
+          </a>
         </div>
 
         {/* Card 4 */}
-        <div className="p-6 rounded-xl shadow-lg bg-white hover:scale-105 transform transition duration-300">
+        <div className="p-6 transition duration-300 transform bg-white shadow-lg rounded-xl hover:scale-105">
           <img
-            src="src\assets\Fundraising Projects Campus Development.png"
+            src={developmentBg}
             alt="Fundraising Projects"
-            className="w-full h-40 object-cover rounded-lg mb-4"
+            className="object-cover w-full h-40 mb-4 rounded-lg"
           />
-          <h2 className="text-xl font-semibold mb-2 text-purple-700">
+          <h2 className="mb-2 text-xl font-semibold text-[#0A2A5F]">
             Fundraising Projects / Campus Development
           </h2>
           <p className="mb-4 text-gray-700">
             Contribute to projects aimed at improving campus facilities and
             resources.
           </p>
-          <button className="bg-purple-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-700 transition">
-            Read More
-          </button>
+          <a
+            href="http://example.com/"
+            className="inline-block px-4 py-2 font-semibold text-white transition rounded-lg bg-[#0A2A5F] hover:bg-blue-700"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join Now
+          </a>
         </div>
 
         {/* Card 5 */}
-        <div className="p-6 rounded-xl shadow-lg bg-white hover:scale-105 transform transition duration-300">
+        <div className="p-6 transition duration-300 transform bg-white shadow-lg rounded-xl hover:scale-105">
           <img
-            src="src\assets\CSR Collaboration with Companies.png"
+            src={csrBg}
             alt="CSR Collaboration"
-            className="w-full h-40 object-cover rounded-lg mb-4"
+            className="object-cover w-full h-40 mb-4 rounded-lg"
           />
-          <h2 className="text-xl font-semibold mb-2 text-red-700">
+          <h2 className="mb-2 text-xl font-semibold text-[#0A2A5F]">
             CSR Collaboration with Companies
           </h2>
           <p className="mb-4 text-gray-700">
             Partner with companies to implement impactful CSR initiatives.
           </p>
-          <button className="bg-red-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-red-700 transition">
-            Read More
-          </button>
+          <a
+            href="http://example.com/"
+            className="inline-block px-4 py-2 font-semibold text-white transition rounded-lg bg-[#0A2A5F] hover:bg-blue-700"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join Now
+          </a>
         </div>
 
         {/* Card 6 */}
-        <div className="p-6 rounded-xl shadow-lg bg-white hover:scale-105 transform transition duration-300">
+        <div className="p-6 transition duration-300 transform bg-white shadow-lg rounded-xl hover:scale-105">
           <img
-            src="src\assets\Share Job Internship Opportunities.png"
+            src={opportunitiesBg}
             alt="Job Opportunities"
-            className="w-full h-40 object-cover rounded-lg mb-4"
+            className="object-cover w-full h-40 mb-4 rounded-lg"
           />
-          <h2 className="text-xl font-semibold mb-2 text-teal-700">
+          <h2 className="mb-2 text-xl font-semibold text-[#0A2A5F]">
             Share Job / Internship Opportunities
           </h2>
           <p className="mb-4 text-gray-700">
             Help students and alumni by sharing relevant job and internship
             openings.
           </p>
-          <button className="bg-teal-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-teal-700 transition">
-            Read More
-          </button>
+          <a
+            href="http://example.com/"
+            className="inline-block px-4 py-2 font-semibold text-white transition rounded-lg bg-[#0A2A5F] hover:bg-blue-700"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join Now
+          </a>
         </div>
       </div>
     </div>
