@@ -35,7 +35,7 @@ const Navbar = () => {
      text-gray-700 font-medium`}
       >
         <li
-          className="relative cursor-pointer group"
+          className="relative cursor-pointer group hover:text-[#012F6D]"
           onClick={() => {
             navigate('/');
           }}
@@ -43,7 +43,7 @@ const Navbar = () => {
           Home
         </li>
         <li
-          className="relative cursor-pointer group"
+          className="relative cursor-pointer group hover:text-[#012F6D]"
           onClick={() => {
             navigate('/membership');
           }}
@@ -51,7 +51,7 @@ const Navbar = () => {
           Membership
         </li>
         <li
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-[#012F6D]"
           onClick={() => {
             navigate('/aboutus');
           }}
@@ -59,7 +59,7 @@ const Navbar = () => {
           About Us
         </li>
         <li
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-[#012F6D]"
           onClick={() => {
             navigate('/gallery');
           }}
@@ -67,7 +67,7 @@ const Navbar = () => {
           Gallery
         </li>
         <li
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-[#012F6D]"
           onClick={() => {
             navigate('/giveback');
           }}
@@ -75,7 +75,7 @@ const Navbar = () => {
           Give Back
         </li>
         <li
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-[#012F6D]"
           onClick={() => {
             navigate('/events');
           }}
@@ -83,7 +83,7 @@ const Navbar = () => {
           Events
         </li>
         <li
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-[#012F6D]"
           onClick={() => {
             navigate('/news');
           }}
@@ -91,7 +91,7 @@ const Navbar = () => {
           News & Updates
         </li>
         <li
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-[#012F6D]"
           onClick={() => {
             navigate('/contact');
           }}

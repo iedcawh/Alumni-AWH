@@ -24,9 +24,14 @@ const Home = () => {
             opportunities, friendships are rekindled, and futures are shaped
             together.
           </p>
-          <button className="px-6 py-3 font-semibold text-white transition-all duration-200 border-2 border-white rounded-md hover:bg-white hover:text-[#081b4d]">
+          <a
+            className="px-6 py-3 font-semibold text-white transition-all duration-200 border-2 border-white rounded-md hover:bg-white hover:text-[#081b4d]"
+            href="https://airtable.com/appLnD2BQdaA7nQjt/pagVZiXOqxZJ54bGK/form"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Join the Association
-          </button>
+          </a>
         </div>
       </div>
       <WelcomeSection />

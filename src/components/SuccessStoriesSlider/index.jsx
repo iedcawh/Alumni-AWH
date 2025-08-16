@@ -1,53 +1,30 @@
 import { useRef, useEffect } from 'react';
 
+import stImg1 from '../../assets/success-stories1.png';
+import stImg2 from '../../assets/success-stories2.png';
+import stImg3 from '../../assets/success-stories3.png';
+
 const slides = [
   {
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9YYh5Fk1u9VsWWr1MhkyQeOzeNbtnnMO96g&s',
-    title: 'Satisfy Your Wanderlust',
+    image: stImg1,
+    title: 'Career Growth',
     description:
-      'Travel the world with fellow Badgers on unforgettable adventures.',
+      'From humble beginnings to achieving a thriving professional career, this journey highlights how dedication and continuous learning can open doors to new opportunities. The transformation stands as proof that perseverance can turn aspirations into achievements.',
     link: '/success-story/1',
   },
   {
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9YYh5Fk1u9VsWWr1MhkyQeOzeNbtnnMO96g&s',
-    title: 'Make a Difference',
+    image: stImg2,
+    title: 'Entrepreneurial Journey',
     description:
-      'Travel the world with fellow Badgers on unforgettable adventures.',
-    link: '/success-story/1',
+      'Starting with just an idea, this journey turned challenges into stepping stones. With determination and creativity, what began as a dream evolved into a flourishing venture, inspiring many to believe in their vision and take the leap forward.',
+    link: '/success-story/2',
   },
   {
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPIfiGgUML8G3ZqsNLHfaCnZK3I5g4tJabQ&s',
-    title: 'Strengthen UW Connections',
+    image: stImg3,
+    title: 'Overcoming Challenges',
     description:
-      'Travel the world with fellow Badgers on unforgettable adventures.',
-    link: '/success-story/1',
-  },
-  {
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPIfiGgUML8G3ZqsNLHfaCnZK3I5g4tJabQ&s',
-    title: 'Stay in the Know',
-    description:
-      'Travel the world with fellow Badgers on unforgettable adventures.',
-    link: '/success-story/1',
-  },
-  {
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykzoZeCE0p7LeuyHnLYCdPP2jju9d5PaMeA&s',
-    title: 'Share Your UW Pride',
-    description:
-      'Travel the world with fellow Badgers on unforgettable adventures.',
-    link: '/success-story/1',
-  },
-  {
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykzoZeCE0p7LeuyHnLYCdPP2jju9d5PaMeA&s',
-    title: 'Share Your UW Pride',
-    description:
-      'Travel the world with fellow Badgers on unforgettable adventures.',
-    link: '/success-story/1',
+      'This journey is about resilience and strength in the face of difficulties. By embracing challenges as opportunities for growth, it became a powerful reminder that setbacks are never the end but the beginning of a stronger comeback.',
+    link: '/success-story/3',
   },
 ];
 
@@ -57,9 +34,9 @@ const SuccessStoriesSlider = () => {
   const scroll = (direction) => {
     const { current } = scrollRef;
     if (direction === 'left') {
-      current.scrollBy({ left: -250, behavior: 'smooth' });
+      current.scrollBy({ left: -350, behavior: 'smooth' });
     } else {
-      current.scrollBy({ left: 250, behavior: 'smooth' });
+      current.scrollBy({ left: 350, behavior: 'smooth' });
     }
   };
 
