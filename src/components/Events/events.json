@@ -1,37 +1,26 @@
 [
   {
-    "date": "2025-09-01",
-    "title": "Autumn Festival",
-    "description": "Celebrate the vibrant transition into fall with a day-long festival featuring live folk music, artisanal food stalls, handcrafted goods, and interactive family-friendly activities. Wander through colorful autumn-themed installations, participate in pumpkin carving contests, and enjoy warm seasonal treats like cider and roasted corn.",
+    "date": "2025-01-25",
+    "title": "Cracking the Code to Careers",
+    "description": "The CGPT Cell, in collaboration with IEDC and IIC of AWH Engineering College, organized an alumni interaction program titled “Cracking the Code to Careers” on January 23, 2025. The session, held for final and pre-final year CSE students, focused on corporate work culture, industry expectations, and key career skills.",
     "image": "https://alcorfund.com/wp-content/uploads/2020/09/Technical-Innovation-defination.png",
-    "authors": ["John", "Jack Sparrow", "Optimus Prime"]
+    "link": "https://awhplacementcell.medium.com/alumni-interaction-program-cracking-the-code-to-careers-fe101402e39e",
+    "authors": ["Muralikrishnan"]
   },
   {
-    "date": "2025-10-15",
-    "title": "Tech Conference 2025",
-    "description": "Join thought leaders, innovators, and tech enthusiasts from around the globe for a three-day deep dive into the latest advancements in artificial intelligence, blockchain, quantum computing, and sustainable technologies. This year’s conference includes expert panels, startup showcases, hands-on workshops, and exclusive networking opportunities with top-tier industry professionals.",
+    "date": "2024-11-28",
+    "title": "Code to Commerce: Your Startup Journey",
+    "description": "The Career Guidance, Training, and Placement Cell, in collaboration with Udyama 1.0, IEDC, and IIC, organized a career awareness session, “From Code to Commerce,” for first-year Computer Science and MCA students of AWH Engineering College. The session, led by Mr. Muhammed Swalih M.P. and Mr. Fahal Salam N., founders of Fluxion IT Solutions, focused on career readiness and launching successful software startups.",
     "image": "https://alcorfund.com/wp-content/uploads/2020/09/Technical-Innovation-defination.png",
-    "authors": ["John", "Jack Sparrow"]
+     "link": "https://awhplacementcell.medium.com/career-awareness-session-from-code-to-commerce-a-deep-dive-into-launching-your-software-startup-3b2d7dfcac27",
+    "authors": ["Muralikrishnan"]
   },
   {
-    "date": "2025-11-10",
-    "title": "Charity Run",
-    "description": "Participate in our annual Charity Run and help raise funds for underprivileged communities. The event includes a 5K and 10K route through the scenic downtown area, with hydration stations, medical support, and entertainment along the way. All proceeds go directly to local nonprofits providing food, shelter, and education for those in need.",
+    "date": "2024-08-19",
+    "title": "Entrepreneurial Session Organized by IIC and IEDC",
+    "description": "The Institution’s Innovation Council (IIC) and IEDC of AWH Engineering College hosted an inspiring session, “Our Entrepreneurial Journey,” featuring Mr. Sathyarth Sankar, Mr. Sidharth C, and Mr. Joseph Jones, founders of Borcom Dynamics Pvt. Ltd., a Kozhikode-based startup specializing in Robotic Process Automation (RPA)",
     "image": "https://alcorfund.com/wp-content/uploads/2020/09/Technical-Innovation-defination.png",
-    "authors": ["John", "Jack Sparrow", "Optimus Prime"]
-  },
-  {
-    "date": "2025-12-05",
-    "title": "Winter Gala",
-    "description": "Experience an enchanting evening of elegance at the Winter Gala, hosted at the grand ballroom of the Civic Center. Enjoy a gourmet multi-course dinner, live orchestra performances, and a formal dance floor under shimmering chandeliers. Guests are encouraged to wear black-tie attire and support the evening’s fundraising efforts for local arts education programs.",
-    "image": "https://alcorfund.com/wp-content/uploads/2020/09/Technical-Innovation-defination.png",
-    "authors": ["Jack Sparrow", "Optimus Prime"]
-  },
-  {
-    "date": "2026-01-20",
-    "title": "New Year Art Exhibit",
-    "description": "Kick off the new year with a cultural celebration at the New Year Art Exhibit. This curated gallery features over 100 works from up-and-coming and established local artists, including paintings, sculptures, and digital installations. Interactive sessions with the artists and live art demonstrations offer a behind-the-scenes look at the creative process.",
-    "image": "https://alcorfund.com/wp-content/uploads/2020/09/Technical-Innovation-defination.png",
-    "authors": ["John", "Jack Sparrow", "Optimus Prime"]
+     "link": "https://awhplacementcell.medium.com/entrepreneurial-session-organized-by-iic-and-iedc-at-awh-engineering-college-dea80b09f066",
+    "authors": ["Muralikrishnan"]
   }
 ]
