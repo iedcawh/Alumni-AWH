@@ -518,7 +518,7 @@ function Membership() {
             <p className="text-lg text-white/80">
               <strong>Email:</strong> alumni@awhce.org
               <br />
-              <strong>Phone:</strong> +91-XXXX-XXXXXX
+              <strong>Phone:</strong> +91-90721-38606
               <br />
               <strong>Support Hours:</strong> 9:00 AM – 4:30 PM (Monday to
               Friday)
@@ -663,7 +663,7 @@ function Membership() {
                 <p>
                   <strong>Email:</strong> alumni@awhce.org
                   <br />
-                  <strong>Phone:</strong> +91-XXXX-XXXXXX
+                  <strong>Phone:</strong> +91-90721-38606
                 </p>
               </div>
             </div>
