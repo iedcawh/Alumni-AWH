@@ -13,9 +13,21 @@ const Navbar = () => {
     <nav className="flex flex-wrap items-center px-8 py-2 bg-white rounded-xl max-md:px-4">
       {/* Logo */}
       <div className="flex items-center flex-shrink-0">
-        <img src={logo} alt="Logo" className="w-12 h-12" />
-        <h2 className="pl-3 text-xl font-semibold text-[#012F6D] max-sm:text-lg">
-          AWH Alumni Assosciation
+        <img
+          src={logo}
+          alt="Logo"
+          className="w-12 h-12 cursor-pointer"
+          onClick={() => {
+            navigate('/');
+          }}
+        />
+        <h2
+          className="pl-3 text-xl font-semibold text-[#012F6D] max-sm:text-lg cursor-pointer"
+          onClick={() => {
+            navigate('/');
+          }}
+        >
+          AWH Alumni Association
         </h2>
       </div>
 
